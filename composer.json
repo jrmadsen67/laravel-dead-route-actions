@@ -17,7 +17,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "jrmadsen67\\LaravelDeadRouteActions\\LaravelDeadRouteActionsProvider",
+        "jrmadsen67\\LaravelDeadRouteActions\\LaravelDeadRouteActionsProvider"
       ]
     }
   }

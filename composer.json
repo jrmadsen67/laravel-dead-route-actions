@@ -1,12 +1,19 @@
 {
-  "name": "jrmadsen67/laravel-dead-route-actions",
-  "description": "Check routes for missing controller actions for Laravel.",
-  "license": "MIT",
-  "authors": [
+    "name": "jrmadsen67/laravel-dead-route-actions",
+    "description": "Check routes for missing controller actions for Laravel.",
+    "license": "MIT",
+    "authors": [
      {
       "name": "Jeff Madsen",
       "email": "jrmadsen67@gmail.com",
       "homepage": "http://codebyjeff.com"
     }
-  ]
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "jrmadsen67\\LaravelDeadRouteActions\\LaravelDeadRouteActionsProvider"
+            ]
+        }
+    }
 }
